@@ -1,0 +1,50 @@
+int test1(int num){
+	int temp;
+	temp = num * 2;
+	return temp;
+}
+int test0(){
+	return test1(1);
+}
+int a = 1;
+int f1(int num){
+	return num + 2;
+}
+void f2(){
+	return;
+}
+int f3(){
+	return a;
+}
+int f4(){
+	return f3();
+}
+int main()
+{	
+    printf("21373331\n");
+	
+	int var1,var2,var3;
+	var1 = (5 + 3) * 2;
+	var2 = var1;
+	var3 = 3 - 1;
+	int var4,var5,var6;
+	var4 = -3;
+	var5 = test0();
+	var6 = test1(3);
+	var1 = 6 / 3;
+	var2 = 4 % 3;
+	 if(var1 > var2) printf("test1\n");
+	 if(var2 < var1) printf("test2\n");
+	 if(var1 >= 0) printf("test3\n");
+	 if(var4 <= 0) printf("test4\n");
+	 if(var1 == var3) printf("test5\n");
+	 if(var1 != var2) printf("test6\n");
+	int v = 0;
+	//Block empty
+	if(+1){
+	}
+	if(-1){
+	}
+	;
+	 
+}

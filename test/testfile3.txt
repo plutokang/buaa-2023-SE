@@ -1,0 +1,81 @@
+int test0(){
+	printf("test1\n");
+	return 0;
+}
+void test1(){
+	printf("test2\n");
+	const int temp = 1;
+	printf("%d\n", temp);	
+} 
+void test2(int num){
+	printf("%d",num);
+}
+int test3(int num1,int num2){
+	int result;
+	result = num1 + num2;
+	return result;
+}
+int main()
+{
+	const int var1 = 5;
+    int var2;
+    int var3,var4;
+    ; 
+    var3 = getint();
+	//scanf("%d",&var3);
+
+    printf("21373331\n"); 
+    var2 = 5;
+	if(var2 > 5){
+    	printf("bolck out of block\n");
+	}
+	if(!(var2 == 5)){
+		printf("if and else");
+	} else{
+		printf("else");
+	}
+	for(;var2>0;var2 = var2-1){
+		if(var2 == 4){
+			continue;
+		}
+	}
+	for(var2=1;;var2=var2-1){
+		if(var2 == 0){
+			break;
+		}
+	}
+	for(var2=3;var2>0;){
+		var2 = var2 - 1;
+	}
+	test0();
+	test1();
+	test2(var3);
+	var4 = test3(var2,var3);
+	var4 = (var1 - var2);
+	var4 = var1;
+	int i = 3;
+	for(;;){
+    	i = i - 1;
+    	if(i <= -1){
+    		break;
+		}
+	}
+	//without 1st stmt and another 
+	i = 3;
+	for(;;i = i-1){
+		if(i < 0){
+			break;
+		}
+	}
+	i =3;
+	for(;i>0;){
+		i = i-1;
+	}
+	for(i = 3;;){
+		if (i < 0){
+			break;
+		}
+		i = i - 1;
+	}
+	return 0;
+}

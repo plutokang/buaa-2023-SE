@@ -1,0 +1,122 @@
+int main()
+{
+	printf("21373061\n");
+	int a,b,c;
+	a = 1;
+	c = 1;
+	b = 0;
+	//LAndExp
+	 if( a == c && a > b) printf("and right\n");
+	 if( a != c && a > b) printf("and wrong\n");
+	 //LorExo
+	 if( a == c || a < b) printf("or right\n");
+	 if( a !=c || a < b) printf("or wrong\n");
+	return 0;
+}
+//funcFParam
+int func1(int array[]){
+	int i;
+	for(i=0;i<2;i=i+1){
+		array[i] = 0;
+	}
+	return 1;
+}
+int func2(int array[][2],int array2[]){
+	int i;
+	for(i=0;i<2;i=i+1){
+		array[i][0] = array2[i];
+	}
+	return 2;
+}
+int func3(int array[][2]){
+	int i;
+	for(i=0;i<2;i=i+1){
+		array[i][0] = 0;
+	}
+	return 2;
+}
+int main()
+{
+	//constdef
+	printf("21373061\n");
+	const int conarray1[5] = {1,2,3,4,5};
+	const int conarray2[2][2] = {{1,2},{3,4}};
+	//vardef
+	//initval
+	int array1[2];
+	int array2[2][2];
+	array1[0] = 1;
+	array2[0][0] = 1;
+	//lval
+	int a,b;
+	a = array1[0];
+	b = array2[0][0];
+	//funcRParams
+	func1(array1);
+	func2(array2,array1);
+	if(func1(array1)){
+	}
+	return 0;
+}
+//functype
+int func0(){
+	printf("func returns int\n");
+	return 0;
+}
+void func1(){
+	printf("func returns void\n");
+	//blockitem
+	const int temp = 1;
+	printf("blockitem declares %d\n", temp);
+}
+void func2(int num){
+	printf("read a num %d",num);
+}
+int func3(int num1,int num2){
+	int ans;
+	ans = num1 + num2;
+	return ans;
+}
+int main()
+{
+	//decl
+	const int a = 5;
+    int b;
+    int c,d;
+    ;
+    c = getint();
+    printf("21373061\n");
+    //stmt
+    //ifelse
+    b = 5;
+	if(b > 5){
+    	printf("bolck out of block\n");
+	}
+	if(!(b == 5)){
+		printf("if and else");
+	} else{
+		printf("else");
+	}
+	//for
+	for(;b>0;b = b-1){
+		if(b == 4){
+			continue;
+		}
+	}
+	for(b=1;;b=b-1){
+		if(b == 0){
+			break;
+		}
+	}
+	for(b=3;b>0;){
+		b = b - 1;
+	}
+	func0();
+	func1();
+	func2(c);
+	d = func3(b,c);
+	//primaryExp
+	d = (a - b);
+	d = a;
+	return 0;
+}

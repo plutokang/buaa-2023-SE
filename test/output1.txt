@@ -1,0 +1,12 @@
+21373331
+123
+or pass!
+testPrint1_2
+testPrint1_4 2
+testPrint3  3
+testPrint4 10
+varArray4[0][0]:0
+elsefunc returns int
+func returns void
+blockitem declares 1
+read a num 1
