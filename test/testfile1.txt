@@ -1,108 +1,9 @@
-
-const int a = 1, b = 2;
-int var1 = 3, var2 = 4;
-int func0(){
-	printf("func returns int\n");
-	return 0;
-}
-void func101(){
-	printf("func returns void\n");
-	//blockitem
-	const int temp = 1;
-	printf("blockitem declares %d\n", temp);	
-} 
-void func200(int num){
-	printf("read a num %d",num);
-}
-int func300(int num1,int num2){
-	int ans;
-	ans = num1 + num2;
-	return ans;
-}
-int func2(int array[][2], int array2[])
-{
-    int i;
-    for (i = 0; i < 2; i = i + 1)
-    {
-        array[i][0] = array2[i];
-    }
-    return 2;
-}
-void testPrint1()
-{
-    if (a + var2 == b - var1 && a)
-    {
-        if (a || !a && b + var1 / 3 + var2 < 0)
-        {
-            printf("And failed!\n");
-        }
-        else
-        {
-            printf("And pass!\n");
-        }
-    }
-    if (var2 != 2 || var1 - 3 == 0)
-    {
-        if (a % 2 + 3 - 4 * 2 + var1 + var2 <= 100 || b)
-        {
-            printf("or pass!\n");
-        }
-    }
-    if (a > b)
-    {
-        printf("testPrint1_1\n");
-    }
-    else
-    {
-        printf("testPrint1_2\n");
-    }
-    if (a + b <= var1 + var2)
-    {
-        var1 = var1 + var2;
-    }
-    if (a + b >= var1 + var2)
-    {
-        printf("testPrint1_3 %d\n", a);
-    }
-    else
-    {
-        printf("testPrint1_4 %d\n", b);
-    }
-    return;
-}
-void testPrint2(int a, int b)
-{
-    if (a)
-    {
-        {
-        }
-    }
-    if (b)
-    {
-        {
-        }
-    }
-    if (+a)
-    {
-        return;
-    }
-    if (-a)
-    {
-        return;
-    }
-    if (!a)
-    {
-        return;
-    }
-    printf("testPrint2 %d\n", a + b);
-    return;
-}
-int testPrint3(const int a[])
+int testPrint3(int a[])
 {
     int t = a[0] + a[1];
     return t;
 }
-int testPrint4(const int a[][2])
+int testPrint4(int a[][2])
 {
     int b = a[0][0] + a[0][1] + a[1][0] + a[1][1];
     return b;
@@ -164,7 +65,7 @@ int main()
     const int c = 3;
     f(c);
     ;
-    if(!(b == 5)){
+    if(!b == 5){
         var1 = 5;
 	} else{
         var2 = 5;
@@ -187,7 +88,7 @@ int main()
     varArray4[0][0] = varArray3[0] * varArray3[1];
     int temp = varArray2[0][0];
     int h = varArray3[1];
-    for(i = 5 * 4;i >=0;i--)
+    for(i = 5 * 4;i >=0;i = i - 1)
     {}
     for (i = 0; i < 2; i = i + 1)
     {
@@ -208,7 +109,7 @@ int main()
         break;
     }
     int varArray5[2];
-    for (i = 0;; i++)
+    for (i = 0;; i = i + 1)
     {
         varArray5[0] = varArray4[i][i] * 10 + 5;
         break;
@@ -219,7 +120,7 @@ int main()
         varArray5[1] = varArray4[1][1] / 10 + 5;
         break;
     }
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < 5; i = i + 1)
     {
         continue;
     }
@@ -259,7 +160,7 @@ int main()
 const int a1 = 5;
 int b1;
     int c1,d1;
-    ; 
+    ;
     c1 = getint();
     //stmt
     //ifelse
@@ -267,7 +168,7 @@ int b1;
 	if(b1 > 5){
     	printf("bolck out of block\n");
 	}
-	if(!(b1 == 5)){
+	if(!b1 == 5){
 		printf("if and else");
 	} else{
 		printf("else");

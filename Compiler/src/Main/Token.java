@@ -1,3 +1,4 @@
+package Main;
 public class Token {
     int lineNum;
     String value;

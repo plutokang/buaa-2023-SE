@@ -1,3 +1,4 @@
+package Main;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -24,7 +25,11 @@ public class MyLexer {
             analyzeLine(line, rowNum);
             rowNum++;
         }
-        printToken();
+//        printToken();
+    }
+    public ArrayList<Token> getTokenList()
+    {
+        return this.tokenList;
     }
 
     BufferedReader openFile(String fileName) {
