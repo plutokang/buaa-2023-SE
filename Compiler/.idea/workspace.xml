@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe486045-c80c-47c9-a07c-337ea71cf5e9" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Compiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Compiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Main.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Main/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Main/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Main/Symbol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Main/SymbolTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Main/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Main/Token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/AddExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/AddExp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/BType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/BType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/Block.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/BlockItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/BlockItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/CompUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/CompUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/ConstDecl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/ConstDecl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/ConstDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/ConstDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/ConstExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/ConstExp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/ConstInitVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/ConstInitVal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/Decl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/Decl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/FuncDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/FuncDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/FuncFParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/FuncFParam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/FuncFParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/FuncFParams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/FuncRParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/FuncRParams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/FuncType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/FuncType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/InitVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/InitVal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/LVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/LVal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/MainFuncDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/MainFuncDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/MulExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/MulExp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/Stmt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/Stmt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/UnaryExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/UnaryExp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/VarDecl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/VarDecl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/Node/VarDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler/Node/VarDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler/TestSame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testfile.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Y9gyNa3lYDoEfMnTjGPKA5ijUW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="fe486045-c80c-47c9-a07c-337ea71cf5e9" name="更改" comment="" />
+      <created>1699943464869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699943464869</updated>
+      <workItem from="1699943466242" duration="73000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
